@@ -1,0 +1,12 @@
+<br>
+<span
+class="glyphicon"
+[ngClass]="{
+    'glyphicon-star':isFavorite,
+    'glyphicon-star-empty':!isFavorite
+}"
+(click)="onClick()">
+</span>
+<!-- {{isFavorite}} -->
+<!-- <button (click)="onClick()">Change</button> -->
+<!-- <favorite [is-Favorite]="data.isSelected" (favChange)="changeFav"></favorite> //place this code parent html -->
