@@ -19,7 +19,5 @@ export class UserNameValidators{
                     resolve(null);
             }, 2000);
         })
-        
-       
     }
 }
